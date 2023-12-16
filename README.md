@@ -4,10 +4,11 @@ Factory utility that creates a `PDO` object from environment configuration.
 
 ---
 
-### Do not use in production yet as: ###
+### WIP -- Do not use in production yet as: ###
 
 * It's not tested extensively
-* More adapters needs to be added
+* It's used mainly to internal projects and might have breaking changes without prior notice
+* There are probably a lot of missing features
 
 ---
 
