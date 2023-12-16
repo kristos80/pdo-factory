@@ -1,4 +1,4 @@
-# 📘 pdo-factory
+# 🏭 pdo-factory
 
 Factory utility that creates a `PDO` object from environment configuration.
 
