@@ -54,6 +54,8 @@ use Kristos80\PdoFactory\PdoFactory;
 
 require_once __DIR__ . "/../../vendor/autoload.php";
 
+# Load .env somehow
+# `Dotenv\Dotenv` is not part of this library
 $dotEnv = Dotenv::createImmutable(__DIR__);
 $dotEnv->load();
 
