@@ -1,13 +1,14 @@
-# 📘 pdo-factory
+# 🏭 pdo-factory
 
 Factory utility that creates a `PDO` object from environment configuration.
 
 ---
 
-### Do not use in production yet as: ###
+## Work in Progress (WIP) — Do not use in production yet: ##
 
-* It's not tested extensively
-* More adapters needs to be added
+- It has not undergone extensive testing.
+- Primarily intended for internal projects, subject to potential breaking changes without prior notice.
+- There are likely many missing features.
 
 ---
 
@@ -54,6 +55,8 @@ use Kristos80\PdoFactory\PdoFactory;
 
 require_once __DIR__ . "/../../vendor/autoload.php";
 
+# Load .env somehow
+# `Dotenv\Dotenv` is not part of this library
 $dotEnv = Dotenv::createImmutable(__DIR__);
 $dotEnv->load();
 
