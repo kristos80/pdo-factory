@@ -19,10 +19,10 @@ The following environmental variables can be used:
 * `${PDO_FACTORY_ADAPTER}_CHARSET` default `NULL`
 
 `MySQL` specific 
-* `MYSQL_UNIX_SOCKET`
+* `MYSQL_UNIX_SOCKET` default `NULL`. If it exists `MYSQL_HOSTNAME` and `MYSQL_PORT` are ommited
 
 `Postgres` specific
-* `POSTGRES_SSL_MODE`
+* `POSTGRES_SSL_MODE` default `NULL`. [See more](https://www.php.net/manual/en/ref.pdo-pgsql.connection.php)
 
 ## Example usage
 ```env
