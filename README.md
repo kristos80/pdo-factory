@@ -4,7 +4,7 @@ Factory utility that creates a `PDO` object from environment configuration.
 
 ---
 ### Please do not use in production yet as: ###
-* It's not battle tested, yet
+* It's not tested extensively
 * More adapters needs to be added
 ---
 
