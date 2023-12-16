@@ -4,11 +4,11 @@ Factory utility that creates a `PDO` object from environment configuration.
 
 ---
 
-### WIP -- Do not use in production yet as: ###
+## Work in Progress (WIP) — Do not use in production yet: ##
 
-* It's not tested extensively
-* It's used mainly to internal projects and might have breaking changes without prior notice
-* There are probably a lot of missing features
+- It has not undergone extensive testing.
+- Primarily intended for internal projects, subject to potential breaking changes without prior notice.
+- There are likely many missing features.
 
 ---
 
