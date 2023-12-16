@@ -2,6 +2,12 @@
 
 Factory utility that creates a `PDO` object from environment configuration.
 
+---
+### Please do not use in production yet as: ###
+* It's not battle tested, yet
+* More adapters needs to be added
+---
+
 The following environmental variables can be used:
 
 * `PDO_FACTORY_ADAPTER` specifies which adapter will be used and how the rest of the environmental variables are going to be collected. Default 'mysql'
